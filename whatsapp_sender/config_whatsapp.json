@@ -1,0 +1,5 @@
+{
+    "grupo_destino": "nome exato do grupo",
+    "ativo": true,
+    "intervalo_msgs": 300
+}

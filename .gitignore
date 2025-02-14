@@ -1,0 +1,85 @@
+# Arquivos de compilação e artefatos
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Arquivos de ambiente
+.env
+.env.local
+venv/
+env/
+.virtualenv/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Dependências de pacotes
+node_modules/
+bower_components/
+vendor/
+*.gem
+*.bundle
+yarn.lock
+
+# Arquivos de IDEs e editores
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+.sublime-project
+.sublime-workspace
+
+# Arquivos de backup e controle de versão
+.git/
+.svn/
+.hg/
+
+# Arquivos de teste e cobertura
+coverage/
+*.lcov
+*.gcda
+*.gcno
+
+# Arquivos específicos do Docker
+*.dockerfile
+.dockerignore
+docker-compose.override.yml
+
+# Arquivos do Android
+*.apk
+*.ap_
+
+# Arquivos de compilação e configuração do macOS
+*.app
+*.dmg
+
+# Arquivos de fontes de pacotes
+.bundle/
+*.log
+*.gz
+*.tar
+
+# Arquivos de documentos e artefatos
+*.pdf
+*.md
