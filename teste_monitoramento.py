@@ -6,10 +6,10 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
 
 def main():
-    from src.monitoramento import CPMCMonitoramento
+    from src.monitoramento import nomeMonitoramento
     
     # Inicializar o monitoramento
-    monitor = CPMCMonitoramento()
+    monitor = nomeMonitoramento()
     monitor.modo_automatico = True
     
     print("\nIniciando monitoramento da pasta registros...")
