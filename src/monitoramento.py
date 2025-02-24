@@ -4,7 +4,7 @@ import datetime
 import os
 import time
 
-class CPMCMonitoramento:
+class nomeMonitoramento:
     def __init__(self, pasta_registros='../registros', rosto_cascade_path='assets/haarcascade_frontalface_default.xml'):
         # Usar caminho relativo para pasta registros na raiz
         pasta_registros = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'registros')
@@ -363,9 +363,9 @@ class CPMCMonitoramento:
                     if len(pessoas_detectadas) > 0 or len(objetos_validos) > 0:
                         self.salvar_deteccoes(frame_exibicao, movimento_detectado, pessoas_detectadas, objetos_validos)
                     
-                    cv2.imshow('CPMC - Monitoramento', frame_exibicao)
+                    cv2.imshow('nome - Monitoramento', frame_exibicao)
                 else:
-                    cv2.imshow('CPMC - Monitoramento', frame)
+                    cv2.imshow('nome - Monitoramento', frame)
                 
                 if cv2.waitKey(1) & 0xFF == ord('s'):
                     break
