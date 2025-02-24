@@ -1,3 +1,3 @@
 # Importação simplificada
-from src.monitoramento import CPMCMonitoramento
-from src.interface import CPMCInterface
+from src.monitoramento import nomeMonitoramento
+from src.interface import nomeInterface
