@@ -1,14 +1,14 @@
 import tkinter as tk
 from tkinter import messagebox
-from src.monitoramento import CPMCMonitoramento
+from src.monitoramento import nomeMonitoramento
 
-class CPMCInterface:
+class nomeInterface:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("CPMC - Monitoramento")
+        self.root.title("nome - Monitoramento")
         self.root.geometry("400x300")
         
-        self.monitoramento = CPMCMonitoramento()
+        self.monitoramento = nomeMonitoramento()
         self.criar_interface_principal()
 
     def criar_interface_principal(self):
@@ -17,7 +17,7 @@ class CPMCInterface:
             widget.destroy()
         
         # Título
-        titulo = tk.Label(self.root, text="CPMC - Sistema de Monitoramento", font=('Arial', 14, 'bold'))
+        titulo = tk.Label(self.root, text="nome - Sistema de Monitoramento", font=('Arial', 14, 'bold'))
         titulo.pack(pady=20)
         
         # Botões
